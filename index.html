@@ -16,61 +16,63 @@
     <title>Gerenciador de Messagens</title>
   </head>
   <body>
-    <!-- Menu -->
-    <nav
-      class="navbar navbar-light navbar-expand-lg"
-      style="background-color: #659ec6"
-      id="nav"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand text-white" href="./index.html">
-          <img
-            src="./imagens/_a2326957-2d96-4334-bd97-3884685c077a.jpg"
-            alt=""
-            width="50"
-            height="34"
-            class="d-inline-block align-text-top"
-          />
-          Gerenciador
-        </a>
-        <!-- Menu mobile -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="link navbar-nav ms-auto mb-2 mb-lg-0 nav-pills nav-fill">
-            <li class="nav-item">
-              <a
-                class="nav-link active text-black bg-white"
-                aria-current="page"
-                href="./index.html"
-                >Inicío</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-black" href="./Pages/contato.html"
-                >Contato</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-black" href="./Pages/adm.html"
-                >Área do Administrador</a
-              >
-            </li>
-          </ul>
+    <header id="header">
+      <!-- Menu -->
+      <nav
+        class="navbar navbar-light navbar-expand-lg"
+        style="background-color: #659ec6"
+        id="nav"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="./index.html">
+            <img
+              src="./imagens/_a2326957-2d96-4334-bd97-3884685c077a.jpg"
+              alt=""
+              width="50"
+              height="34"
+              class="d-inline-block align-text-top"
+            />
+            Gerenciador
+          </a>
+          <!-- Menu mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="link navbar-nav ms-auto mb-2 mb-lg-0 nav-pills nav-fill">
+              <li class="nav-item px-2">
+                <a
+                  class="nav-link active text-black bg-white"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicío</a
+                >
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link text-black" href="./Pages/contato.html"
+                  >Contato</a
+                >
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link text-black" href="./Pages/adm.html"
+                  >Área do Administrador</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <main id="main">
+      </nav>
+    </header>
+    <main id="conteudo_geral">
       <h1 class="pt-4 text-center titulo-txt">Principal</h1>
       <section class="container-fluid m-auto">
         <div class="card text-center pt-3">
@@ -98,10 +100,10 @@
         <div class="container-fluid m-auto">
           <div class="row">
             <!-- Conteúdo Aside -->
-            <div class="col-sm-12 col-md-4 col-xl-3 mt-5" id="aside">
+            <aside class="col-sm-12 col-md-4 col-xl-3 mt-5" id="aside">
               <h2 class="mb-4 text-center">Anuncie aqui</h2>
               <!-- Card 1 -->
-              <div class="card m-auto" style="width: 16rem; border: none">
+              <div class="card m-auto" style="width: 15rem; border: none">
                 <img
                   src="./imagens/anuncie.png"
                   class="card-img-top"
@@ -112,7 +114,7 @@
                 </div>
               </div>
               <!-- Card 2 -->
-              <div class="card m-auto" style="width: 16rem; border: none">
+              <div class="card m-auto" style="width: 15rem; border: none">
                 <img
                   src="./imagens/anuncie.png"
                   class="card-img-top"
@@ -123,7 +125,7 @@
                 </div>
               </div>
               <!-- Card 3 -->
-              <div class="card m-auto" style="width: 16rem; border: none">
+              <div class="card m-auto" style="width: 15rem; border: none">
                 <img
                   src="./imagens/anuncie.png"
                   class="card-img-top"
@@ -134,7 +136,7 @@
                 </div>
               </div>
               <!-- Card 4 -->
-              <div class="card m-auto" style="width: 16rem; border: none">
+              <div class="card m-auto" style="width: 15rem; border: none">
                 <img
                   src="./imagens/anuncie.png"
                   class="card-img-top"
@@ -144,7 +146,7 @@
                   <a href="#" class="btn btn-primary">Entre em Contato</a>
                 </div>
               </div>
-            </div>
+            </aside>
             <!-- Conteúdo Principal -->
             <div class="col-sm-12 col-md-8 col-xl-9 mt-5" id="main">
               <h2 class="text-center">Titulo</h2>
@@ -262,13 +264,13 @@
       </section>
     </main>
     <!-- Footer -->
-    <div
+    <footer
       class="container-fluid text-center p-1"
       id="footer"
       style="background-color: #659ec6"
     >
       <p class="mt-4 text-white">Feito por &copy; Thauan Rodrigues - 2023</p>
-    </div>
+    </footer>
     <!-- Bootstrap Script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

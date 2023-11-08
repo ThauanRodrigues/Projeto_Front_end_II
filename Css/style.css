@@ -2,12 +2,20 @@
   margin: 0;
   padding: 0;
 }
+#nav {
+  padding: 5px 20px;
+}
+#contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .formulario {
-  padding: 100px;
+  padding: 50px;
   background-color: #659ec6;
   height: auto;
-  width: 100%;
+  width: 50vw;
 }
 
 #aside {
@@ -20,6 +28,14 @@
   }
   #main {
     order: 1;
+  }
+  #contato {
+    order: 1;
+    display: block;
+  }
+  .formulario {
+    width: auto;
+    margin-top: 80px;
   }
   #aside {
     order: 2;

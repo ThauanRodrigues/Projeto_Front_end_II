@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+  <head id="header">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,144 +16,135 @@
     <title>Gerenciador de Messagens</title>
   </head>
   <body>
-    <div class="container"></div>
-    <!-- Menu -->
-    <nav
-      class="navbar navbar-light navbar-expand-lg"
-      style="background-color: #659ec6"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
-          <img
-            src="../imagens/_a2326957-2d96-4334-bd97-3884685c077a.jpg"
-            alt=""
-            width="50"
-            height="34"
-            class="d-inline-block align-text-top"
-          />
-          Gerenciador
-        </a>
-        <!-- Menu mobile -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-pills nav-fill">
-            <li class="nav-item">
-              <a class="nav-link text-black" href="../index.html">Inicío</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active text-black bg-white"
-                aria-current="page"
-                href="./contato.html"
-                >Contato</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-black" href="./adm.html"
-                >Área do Administrador</a
-              >
-            </li>
-          </ul>
+    <header id="header">
+      <!-- Menu -->
+      <nav
+        class="navbar navbar-light navbar-expand-lg"
+        style="background-color: #659ec6"
+        id="nav"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="../index.html">
+            <img
+              src="../imagens/_a2326957-2d96-4334-bd97-3884685c077a.jpg"
+              alt="Logo"
+              width="50"
+              height="34"
+              class="d-inline-block align-text-top"
+            />
+            Gerenciador
+          </a>
+          <!-- Menu mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-pills nav-fill">
+              <li class="nav-item px-2">
+                <a class="nav-link text-black" href="../index.html">Inicío</a>
+              </li>
+              <li class="nav-item px-2">
+                <a
+                  class="nav-link active text-black bg-white"
+                  aria-current="page"
+                  href="./contato.html"
+                  >Contato</a
+                >
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link text-black" href="./adm.html"
+                  >Área do Administrador</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <main class="container container1 px-4">
+      </nav>
+    </header>
+
+    <!-- Conteúdo -->
+    <main class="container-fluid m-auto">
       <div class="row">
-        <div class="col-md-5">
-          <div class="card" style="width: 18rem">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+        <!-- Conteúdo Aside -->
+        <aside class="col-sm-10 col-md-5 col-xl-3 mt-5" id="aside">
+          <h2 class="mb-4 text-center">Anuncie aqui</h2>
+          <!-- Card 1 -->
+          <div class="card m-auto" style="width: 14rem; border: none">
+            <img src="../imagens/anuncie.png" class="card-img-top" alt="..." />
+            <div class="card-body d-flex justify-content-center">
+              <a href="#" class="btn btn-primary">Entre em Contato</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+          <!-- Card 2 -->
+          <div class="card m-auto" style="width: 14rem; border: none">
+            <img src="../imagens/anuncie.png" class="card-img-top" alt="..." />
+            <div class="card-body d-flex justify-content-center">
+              <a href="#" class="btn btn-primary">Entre em Contato</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+          <!-- Card 3 -->
+          <div class="card m-auto" style="width: 14rem; border: none">
+            <img src="../imagens/anuncie.png" class="card-img-top" alt="..." />
+            <div class="card-body d-flex justify-content-center">
+              <a href="#" class="btn btn-primary">Entre em Contato</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-md-6 d-flex justify-content-center align-items-center"
-          style="height: 100vh"
-        >
-          <form class="formulario">
-            <div class="form-group">
+        </aside>
+
+        <section class="col-sm-10 col-md-7 col-xl-9 m-auto" id="contato">
+          <!-- Form -->
+          <form class="formulario" style="border: 2px solid black">
+            <h2 class="text-center mb-4">Fale conosco</h2>
+            <div class="form-group mb-3">
               <label for="name">Nome</label>
               <input
                 type="text"
-                class="form-control form-control-lg"
+                class="form-control form-control-sm form-control-lg mt-2"
                 id="name"
               />
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
               <label for="email">Email</label>
               <input
                 type="email"
-                class="form-control form-control-lg"
+                class="form-control form-control-sm form-control-lg mt-2"
                 id="email"
               />
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
               <label for="message">Mensagem</label>
               <textarea
-                class="form-control form-control-lg"
+                class="form-control form-control-sm form-control-lg mt-2"
                 id="message"
+                rows="4"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-lg btn-primary mt-3">
+                Enviar
+              </button>
+            </div>
           </form>
-        </div>
+        </section>
       </div>
     </main>
-
-    <div class="container text-center footer">
-      <p class="mt-4">Feito por Thauan Rodrigues &copy; OneBitCode -2023</p>
-    </div>
+    <!-- Footer -->
+    <footer
+      class="container-fluid text-center p-1"
+      id="footer"
+      style="background-color: #659ec6"
+    >
+      <p class="mt-4 text-white">Feito por &copy; Thauan Rodrigues - 2023</p>
+    </footer>
     <!-- Bootstrap Script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
