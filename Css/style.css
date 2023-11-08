@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.formulario {
+  padding: 100px;
+  background-color: #659ec6;
+  height: auto;
+  width: 100%;
+}
+
+#aside {
+  border-right: 1px solid #333;
+}
