@@ -13,3 +13,19 @@
 #aside {
   border-right: 1px solid #333;
 }
+
+@media only screen and (max-width: 768px) {
+  #header {
+    order: 0;
+  }
+  #main {
+    order: 1;
+  }
+  #aside {
+    order: 2;
+    flex: 1 1 100vw;
+  }
+  #footer {
+    order: 3;
+  }
+}
