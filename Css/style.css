@@ -22,6 +22,19 @@
   border-right: 1px solid #333;
 }
 
+.divLogin {
+  margin: auto;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#formLogin {
+  background-color: #659ec6;
+  padding: 60px;
+}
+
 @media only screen and (max-width: 768px) {
   #header {
     order: 0;
