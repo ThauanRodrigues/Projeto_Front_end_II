@@ -1,3 +1,53 @@
+Color Theme Swatches in Hex .Natureza-1-hex {
+  color: #070e26;
+}
+.Natureza-2-hex {
+  color: #113059;
+}
+.Natureza-3-hex {
+  color: #2474a6;
+}
+.Natureza-4-hex {
+  color: #419bbf;
+}
+.Natureza-5-hex {
+  color: #55c1d9;
+}
+
+/* Color Theme Swatches in RGBA */
+.Natureza-1-rgba {
+  color: rgba(6, 14, 38, 1);
+}
+.Natureza-2-rgba {
+  color: rgba(16, 48, 89, 1);
+}
+.Natureza-3-rgba {
+  color: rgba(36, 116, 165, 1);
+}
+.Natureza-4-rgba {
+  color: rgba(65, 155, 191, 1);
+}
+.Natureza-5-rgba {
+  color: rgba(84, 192, 216, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.Natureza-1-hsla {
+  color: hsla(225, 70, 8, 1);
+}
+.Natureza-2-hsla {
+  color: hsla(213, 68, 20, 1);
+}
+.Natureza-3-hsla {
+  color: hsla(202, 63, 39, 1);
+}
+.Natureza-4-hsla {
+  color: hsla(196, 49, 50, 1);
+}
+.Natureza-5-hsla {
+  color: hsla(191, 63, 59, 1);
+}
+
 * {
   margin: 0;
   padding: 0;
