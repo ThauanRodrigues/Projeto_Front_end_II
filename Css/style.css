@@ -7,6 +7,7 @@
 }
 #contato {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -14,6 +15,7 @@
 .formulario {
   padding: 50px;
   background-color: #659ec6;
+  border-radius: 5px;
   height: auto;
   width: 50vw;
 }
@@ -31,6 +33,7 @@
   justify-content: center;
 }
 #formLogin {
+  border-radius: 5px;
   background-color: #659ec6;
   padding: 60px;
 }
@@ -53,6 +56,9 @@
   #aside {
     order: 2;
     flex: 1 1 100vw;
+  }
+  .tituloContato {
+    margin-top: 30px;
   }
   #footer {
     order: 3;
