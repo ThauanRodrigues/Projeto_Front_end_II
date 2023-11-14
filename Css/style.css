@@ -52,6 +52,7 @@ Color Theme Swatches in Hex .Natureza-1-hex {
   margin: 0;
   padding: 0;
 }
+
 #nav {
   padding: 5px 20px;
 }
@@ -62,7 +63,7 @@ Color Theme Swatches in Hex .Natureza-1-hex {
   align-items: center;
 }
 
-.formulario {
+#formulario {
   padding: 50px;
   background-color: #2474a6;
   border-radius: 5px;
@@ -99,7 +100,7 @@ Color Theme Swatches in Hex .Natureza-1-hex {
     order: 1;
     display: block;
   }
-  .formulario {
+  #formulario {
     width: auto;
     margin-top: 80px;
   }
