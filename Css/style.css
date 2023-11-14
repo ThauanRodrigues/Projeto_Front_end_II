@@ -88,6 +88,31 @@ Color Theme Swatches in Hex .Natureza-1-hex {
   background-color: #2474a6;
   padding: 60px;
 }
+/* Estilo para a tabela */
+.tabela-contato {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Estilo para as células da tabela */
+.tabela-contato th,
+.tabela-contato td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Estilo para as células do cabeçalho */
+.tabela-contato th {
+  background-color: #001a4d; /* Azul escuro */
+  color: white;
+}
+
+/* Estilo para linhas alternadas */
+.tabela-contato tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Azul claro */
+}
 
 @media only screen and (max-width: 768px) {
   #header {
