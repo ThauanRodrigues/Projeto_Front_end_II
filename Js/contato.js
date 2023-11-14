@@ -33,6 +33,6 @@ $(document).ready(function () {
     $("#mensagem").val("");
 
     //Redireciona o usuário para a página "area_admin.html" após o envio do formulário.
-    window.location.href = "admin.html";
+    window.location.href = "contato.html";
   });
 });
